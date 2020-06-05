@@ -1,3 +1,10 @@
+## New Display property
+### flow-root
+solves all problems which float had. so the text will wrap around the images and no clearfix hack is needed.
+```
+display: flow-root;
+```
+
 ## CSS Width and Height new Way
 ### min(500px, 70%)
 use which ever is minimum in this case. between 500px and 70% whichever is minimum will be used.
@@ -5,7 +12,7 @@ use which ever is minimum in this case. between 500px and 70% whichever is minim
     width: min(500px, 70%);
  ```
  
- ### ! max(500px, 70%)
+ ### max(500px, 70%)
 use which ever is maximum in this case. between 500px and 70% whichever is maximum will be used.
  ```
     width: max(500px, 70%);
